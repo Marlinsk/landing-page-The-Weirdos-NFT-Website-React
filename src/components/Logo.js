@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import "./styles/Logo.css"
 
 const LogoText = styled.h1`
   font-family: "Akaya Telivigala", cursive;
@@ -19,8 +20,8 @@ const LogoText = styled.h1`
 
 const Logo = () => {
   return (
-    <LogoText>
-      <Link to="/">W.</Link>
+    <LogoText className="fill-text">
+      <Link to="/">W.O.F.</Link>
     </LogoText>
   );
 };

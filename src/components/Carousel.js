@@ -10,16 +10,16 @@ import "swiper/css/navigation";
 
 import { Pagination, Navigation, Autoplay, EffectCards } from "swiper";
 
-import img1 from "../assets/Nfts/bighead.svg";
-import img2 from "../assets/Nfts/bighead-1.svg";
-import img3 from "../assets/Nfts/bighead-2.svg";
-import img4 from "../assets/Nfts/bighead-3.svg";
-import img5 from "../assets/Nfts/bighead-4.svg";
-import img6 from "../assets/Nfts/bighead-5.svg";
-import img7 from "../assets/Nfts/bighead-6.svg";
-import img8 from "../assets/Nfts/bighead-7.svg";
-import img9 from "../assets/Nfts/bighead-8.svg";
-import img10 from "../assets/Nfts/bighead-9.svg";
+import img1 from "../assets/Nfts/0.png";
+import img2 from "../assets/Nfts/13.png";
+import img3 from "../assets/Nfts/15.png";
+import img4 from "../assets/Nfts/20.png";
+import img5 from "../assets/Nfts/29.png";
+import img6 from "../assets/Nfts/30.png";
+import img7 from "../assets/Nfts/33.png";
+import img8 from "../assets/Nfts/35.png";
+import img9 from "../assets/Nfts/36.png";
+import img10 from "../assets/Nfts/37.png";
 
 import Arrow from "../assets/Arrow.svg";
 
@@ -52,7 +52,7 @@ const Container = styled.div`
   }
 
   .swiper-slide {
-    background-color: ${(props) => props.theme.carouselColor};
+    background-color: transparent;
     border-radius: 20px;
 
     display: flex;
@@ -64,6 +64,7 @@ const Container = styled.div`
       width: 100%;
       height: auto;
       object-fit: cover;
+      border-radius: 20px;
     }
   }
 
@@ -128,7 +129,7 @@ const Carousel = () => {
         scrollbar={{
           draggable: true,
         }}
-        modules={[EffectCards, Pagination, Navigation, Autoplay]}
+        modules={[EffectCards, Navigation, Autoplay]}
         navigation={true}
         effect={"cards"}
         grabCursor={true}

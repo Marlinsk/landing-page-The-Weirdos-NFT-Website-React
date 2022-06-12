@@ -1,0 +1,6 @@
+.fill-text{
+	background-image: url("../../assets/capture2.png");
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	animation: filling 3s ease infinite;
+}

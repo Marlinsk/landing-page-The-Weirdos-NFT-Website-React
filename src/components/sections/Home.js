@@ -3,13 +3,13 @@ import styled from "styled-components";
 import { keyframes } from "styled-components";
 import CoverVideo from "../CoverVideo";
 import TypeWriterText from "../TypeWriterText";
-import RoundTextBlack from "../../assets/Rounded-Text-Black.png";
+// import RoundTextBlack from "../../assets/Rounded-Text-Black.png";
+import "../styles/Home.css"
 
 const Section = styled.section`
   min-height: ${(props) => `calc(100vh - ${props.theme.navHeight})`};
   width: 100vw;
   position: relative;
-  background-color: ${(props) => props.theme.body};
 `;
 
 const Container = styled.div`
@@ -104,19 +104,14 @@ const Circle = styled.span`
 
 const Home = () => {
   return (
-    <Section id="home">
+    <Section id="home" className="imagebackground" >
       <Container>
-        <Box>
+        {/* <Box>
           <TypeWriterText />
         </Box>
         <Box>
           <CoverVideo />
-        </Box>
-
-        <Round>
-          <Circle>&#x2193;</Circle>
-          <img src={RoundTextBlack} alt="NFT"></img>
-        </Round>
+        </Box> */}
       </Container>
     </Section>
   );

@@ -166,12 +166,12 @@ const Navigation = () => {
           <MenuItem onClick={() => scrollTo("faq")}>Faq</MenuItem>
           <MenuItem>
             <div className="mobile">
-              <Button text="Connect Wallet" link="https://www.google.com.br/" />
+              <a href="https://v5-ui.vercel.app/" target="_blank"> <Button text="MINT"/> </a>
             </div>
           </MenuItem>
         </Menu>
         <div className="desktop">
-          <Button text="Connect Wallet" link="https://www.google.com.br/" />
+          <a href="https://v5-ui.vercel.app/" target="_blank"> <Button text="MINT"/> </a>
         </div>
       </NavBar>
     </Section>

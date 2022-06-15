@@ -220,27 +220,29 @@ const Roadmap = () => {
           <RoadMapItem
             addToRef={addToRefs}
             title="Grand Opening"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            subtext="WOF will reach out to other projects / DAOs for project collaborations to create brand awareness. 420 Members will be awarded the Top Shelf WL role. 
+            Launch mint on our official website. After mint is complete, we will get listed on secondary. "
           />
           <RoadMapItem
             addToRef={addToRefs}
             title="Great Benefits"
+            subtext="WOF has many benefits to offer to our community. 
+             Our Pot Funds (Treasury Wallet) will contain 30% of the mint proceeds. We will host interactive events throughout each week for our community to participate in to win rewards. "
+          />
+          <RoadMapItem
+            addToRef={addToRefs}
+            title="Holder Events"
+            subtext="We want to give all of our holders the opportunity to be able to participate in our community events. These events will consist of many different interactive approaches with the community. Game events, Movie/TV Show Questionnaire,Karaoke/Mic Night, Trivia Night, etc. All rewards will be paid out in $SOL. "
+          />
+          <RoadMapItem
+            addToRef={addToRefs}
+            title="MERCH & STAKING"
             subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="Early Access"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
-          />
-          <RoadMapItem
-            addToRef={addToRefs}
-            title="New Merch"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
-          />
-          <RoadMapItem
-            addToRef={addToRefs}
-            title="Holders Ranking"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="WOF PRODUCTS"
+            subtext="CBD products. THC products. Coming Soon. "
           />
         </Items>
       </Container>

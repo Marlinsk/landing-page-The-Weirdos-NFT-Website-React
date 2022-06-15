@@ -12,7 +12,7 @@ import img7 from "../../assets/Nfts/bighead-6.svg";
 import img8 from "../../assets/Nfts/bighead-7.svg";
 import img9 from "../../assets/Nfts/bighead-8.svg";
 import img10 from "../../assets/Nfts/bighead-9.svg";
-import ETH from "../../assets/icons8-ethereum-48.png";
+import SOL from "../../assets/Solana3.png"
 
 const Section = styled.section`
   min-height: 100vh;
@@ -129,14 +129,14 @@ const NftItem = ({ img, number = 0, price = 0, passRef }) => {
       <img src={img} alt="The Weirdos" />
       <Details>
         <div>
-          <span>Weirdos</span> <br />
+          <span>WOF</span> <br />
           <h1>#{number}</h1>
         </div>
 
         <div>
           <span>Price</span>
           <Price>
-            <img src={ETH} alt="ETH" />
+            <img src={SOL} alt="SOL" />
             <h1>{Number(price).toFixed(1)}</h1>
           </Price>
         </div>

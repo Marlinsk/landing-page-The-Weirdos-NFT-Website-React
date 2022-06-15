@@ -2,16 +2,16 @@ import React, { useRef } from "react";
 import styled from "styled-components";
 import { keyframes } from "styled-components";
 
-import img1 from "../../assets/Nfts/bighead.svg";
-import img2 from "../../assets/Nfts/bighead-1.svg";
-import img3 from "../../assets/Nfts/bighead-2.svg";
-import img4 from "../../assets/Nfts/bighead-3.svg";
-import img5 from "../../assets/Nfts/bighead-4.svg";
-import img6 from "../../assets/Nfts/bighead-5.svg";
-import img7 from "../../assets/Nfts/bighead-6.svg";
-import img8 from "../../assets/Nfts/bighead-7.svg";
-import img9 from "../../assets/Nfts/bighead-8.svg";
-import img10 from "../../assets/Nfts/bighead-9.svg";
+import img1 from "../../assets/Nfts/0.png";
+import img2 from "../../assets/Nfts/1.png";
+import img3 from "../../assets/Nfts/2.png";
+import img4 from "../../assets/Nfts/3.png";
+import img5 from "../../assets/Nfts/4.png";
+import img6 from "../../assets/Nfts/5.png";
+import img7 from "../../assets/Nfts/6.png";
+import img8 from "../../assets/Nfts/7.png";
+import img9 from "../../assets/Nfts/8.png";
+import img10 from "../../assets/Nfts/9.png";
 import SOL from "../../assets/Solana3.png"
 
 const Section = styled.section`
@@ -152,18 +152,18 @@ const Showcase = () => {
   return (
     <Section id="showcase">
       <Row direction="none" ref={Row1Ref}>
-        <NftItem img={img1} number={852} price={1.0} passRef={Row1Ref} />
-        <NftItem img={img2} number={123} price={1.2} passRef={Row1Ref} />
-        <NftItem img={img3} number={456} price={2.5} passRef={Row1Ref} />
-        <NftItem img={img4} number={661} price={3.5} passRef={Row1Ref} />
-        <NftItem img={img5} number={452} price={4.7} passRef={Row1Ref} />
+        <NftItem img={img1} number={0} price={1.0} passRef={Row1Ref} />
+        <NftItem img={img2} number={1} price={1.0} passRef={Row1Ref} />
+        <NftItem img={img3} number={2} price={1.0} passRef={Row1Ref} />
+        <NftItem img={img4} number={3} price={1.0} passRef={Row1Ref} />
+        <NftItem img={img5} number={4} price={1.0} passRef={Row1Ref} />
       </Row>
       <Row direction="reverse" ref={Row2Ref}>
-        <NftItem img={img6} number={888} price={1.2} passRef={Row2Ref} />
-        <NftItem img={img7} number={211} price={3.2} passRef={Row2Ref} />
-        <NftItem img={img8} number={455} price={1.8} passRef={Row2Ref} />
-        <NftItem img={img9} number={456} price={5.1} passRef={Row2Ref} />
-        <NftItem img={img10} number={865} price={3.7} passRef={Row2Ref} />
+        <NftItem img={img6} number={5} price={1.0} passRef={Row2Ref} />
+        <NftItem img={img7} number={6} price={1.0} passRef={Row2Ref} />
+        <NftItem img={img8} number={7} price={1.0} passRef={Row2Ref} />
+        <NftItem img={img9} number={8} price={1.0} passRef={Row2Ref} />
+        <NftItem img={img10} number={9} price={1.0} passRef={Row2Ref} />
       </Row>
     </Section>
   );

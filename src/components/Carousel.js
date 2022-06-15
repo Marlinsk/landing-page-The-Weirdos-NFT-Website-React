@@ -11,15 +11,15 @@ import "swiper/css/navigation";
 import { Pagination, Navigation, Autoplay, EffectCards } from "swiper";
 
 import img1 from "../assets/Nfts/0.png";
-import img2 from "../assets/Nfts/13.png";
-import img3 from "../assets/Nfts/15.png";
-import img4 from "../assets/Nfts/20.png";
-import img5 from "../assets/Nfts/29.png";
-import img6 from "../assets/Nfts/30.png";
-import img7 from "../assets/Nfts/33.png";
-import img8 from "../assets/Nfts/35.png";
-import img9 from "../assets/Nfts/36.png";
-import img10 from "../assets/Nfts/37.png";
+import img2 from "../assets/Nfts/1.png";
+import img3 from "../assets/Nfts/2.png";
+import img4 from "../assets/Nfts/3.png";
+import img5 from "../assets/Nfts/4.png";
+import img6 from "../assets/Nfts/5.png";
+import img7 from "../assets/Nfts/6.png";
+import img8 from "../assets/Nfts/7.png";
+import img9 from "../assets/Nfts/8.png";
+import img10 from "../assets/Nfts/9.png";
 
 import Arrow from "../assets/Arrow.svg";
 

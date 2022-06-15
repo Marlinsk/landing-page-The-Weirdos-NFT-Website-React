@@ -39,7 +39,7 @@ const Container = styled.div`
 
 const IconList = styled.div`
   display: flex;
-  align-items: center;
+  align-items: left;
   margin: 1rem auto;
 
   & > * {
@@ -133,7 +133,7 @@ const Footer = () => {
         <Left>
           <Logo />
           <IconList>
-            <a
+            {/* <a
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -146,9 +146,9 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <Instagram />
-            </a>
+            </a> */}
             <a
-              href="https://twitter.com"
+              href="https://twitter.com/WOFortuneNFT"
               target="_blank"
               rel="noopener noreferrer"
             >

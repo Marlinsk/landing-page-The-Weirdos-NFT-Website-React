@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Accordion from "../Accordion";
 
 const Section = styled.section`
-  min-height: 100vh;
+  min-height: 75vh;
   height: auto;
   width: 100vw;
   background-color: ${(props) => props.theme.text};

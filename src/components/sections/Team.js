@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-import img1 from "../../assets/Nfts/bighead.svg";
-import img2 from "../../assets/Nfts/bighead-1.svg";
-import img3 from "../../assets/Nfts/bighead-2.svg";
-import img4 from "../../assets/Nfts/bighead-3.svg";
+import img1 from "../../assets/Nfts/bilbo.png";
+import img2 from "../../assets/Nfts/dobby.png";
+import img3 from "../../assets/Nfts/harry.png";
+import img4 from "../../assets/Nfts/aldo.png";
 import img5 from "../../assets/Nfts/bighead-4.svg";
 import img6 from "../../assets/Nfts/bighead-5.svg";
 import img7 from "../../assets/Nfts/bighead-6.svg";
@@ -13,7 +13,7 @@ import img9 from "../../assets/Nfts/bighead-8.svg";
 import ConfettiComponent from "../Confetti";
 
 const Section = styled.section`
-  min-height: 100vh;
+  min-height: 50vh;
   width: 100vw;
   background-color: ${(props) => props.theme.body};
   position: relative;
@@ -90,6 +90,7 @@ const ImageContainer = styled.div`
   img {
     width: 100%;
     height: auto;
+    border-radius: 20px;
     transition: all 0.3s ease;
   }
 `;
@@ -129,8 +130,8 @@ const MemberComponent = ({ img, name = " ", position = " " }) => {
 const Team = () => {
   return (
     <Section id="team">
-      <ConfettiComponent />
-      <Title>Team</Title>
+      {/* <ConfettiComponent /> */}
+      <Title>Meet the Team!</Title>
       <Container>
         <MemberComponent img={img1} name="BILBO" position="Founder" />
         <MemberComponent img={img2} name="DOBBY" position="CO-FOUNDER" />
